@@ -49,7 +49,7 @@ const deleteHandler=(event)=>{
           </nav>
         </header>
         <div id="event-details-content">
-          <img src={`http://localhost:3000/${data.image}`} alt="" />
+          <img src={`https://backend-tuim.onrender.com/${data.image}`} alt="" />
           <div id="event-details-info">
             <div>
               <p id="event-details-location">{data.location}</p>
